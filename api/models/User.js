@@ -13,8 +13,14 @@ module.exports = {
     //  ╠═╝╠╦╝║║║║║ ║ ║╚╗╔╝║╣ ╚═╗
     //  ╩  ╩╚═╩╩ ╩╩ ╩ ╩ ╚╝ ╚═╝╚═╝
 
-    name: {
-      type: 'string'
+    firstName: {
+      type: 'string',
+      columnName: 'first_name'
+    },
+
+    lastName: {
+      type: 'string',
+      columnName: 'last_name'
     },
 
     age: {
