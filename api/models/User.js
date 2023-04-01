@@ -25,6 +25,18 @@ module.exports = {
 
     age: {
       type: 'number'
+    },
+
+    isAdmin: {
+      type: 'boolean'
+    },
+
+    petName: {
+      type: 'ref'
+    },
+
+    favFrameworks: {
+      type: 'json'
     }
 
 
