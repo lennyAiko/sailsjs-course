@@ -15,20 +15,24 @@ module.exports = {
 
     firstName: {
       type: 'string',
-      columnName: 'first_name'
+      columnName: 'first_name',
+      required: true
     },
 
     lastName: {
       type: 'string',
-      columnName: 'last_name'
+      columnName: 'last_name',
+      allowNull: true
     },
 
     age: {
-      type: 'number'
+      type: 'number',
+      defaultsTo: 18
     },
 
     isAdmin: {
-      type: 'boolean'
+      type: 'boolean',
+      defaultsTo: true
     },
 
     petName: {
