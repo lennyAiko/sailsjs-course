@@ -49,7 +49,8 @@ module.exports = {
     },
 
     favFrameworks: {
-      type: 'json'
+      type: 'json',
+      isNumber: true
     }
 
 
