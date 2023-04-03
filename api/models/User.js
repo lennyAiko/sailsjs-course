@@ -34,14 +34,14 @@ module.exports = {
 
     age: {
       type: 'number',
-      allowNull: true,
       isInteger: true,
       defaultsTo: 18
     },
 
-    isAdmin: {
-      type: 'boolean',
-      defaultsTo: true
+    role: {
+      type: 'string',
+      isIn: ['user', 'admin', 'super-admin'],
+      defaultsTo: 'user'
     },
 
     petName: {
