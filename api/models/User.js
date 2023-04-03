@@ -25,6 +25,13 @@ module.exports = {
       allowNull: true
     },
 
+    email: {
+      type: 'string',
+      isEmail: true,
+      allowNull: false,
+      required: true
+    },
+
     age: {
       type: 'number',
       defaultsTo: 18
