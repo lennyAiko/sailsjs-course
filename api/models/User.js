@@ -34,6 +34,8 @@ module.exports = {
 
     age: {
       type: 'number',
+      allowNull: true,
+      isInteger: true,
       defaultsTo: 18
     },
 
