@@ -45,7 +45,8 @@ module.exports = {
     },
 
     petName: {
-      type: 'ref'
+      type: 'ref',
+      isString: true
     },
 
     favFrameworks: {
