@@ -42,11 +42,13 @@ module.exports = {
       type: 'string',
       isEmail: true,
       allowNull: false,
-      required: true
+      required: true,
+      unique: true
     },
 
     age: {
       type: 'number',
+      columnType: 'integer',
       isInteger: true,
       defaultsTo: 18,
       min: 16,
