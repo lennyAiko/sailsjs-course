@@ -72,7 +72,7 @@ module.exports = {
 
     ip: {
       type: 'string',
-      isIp: true
+      isIP: true
     },
 
     hasAgreedToTerms: {
@@ -97,7 +97,7 @@ module.exports = {
 
     workEmail: {
       type: 'string',
-      regex: /\W+@sailscasts\.com/L
+      regex: /\W+@sailscasts\.com/i
     },
 
     country: {
